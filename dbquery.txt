@@ -1,0 +1,10 @@
+db.users.insert({
+    name: 'Daniel Okoronkwo',
+    email: 'daniel@gmail.com',
+    password: 'password'
+})
+db.users.insert({
+    name: 'John Doe',
+    email: 'john@gmail.com',
+    password: 'password'
+})

@@ -1,0 +1,31 @@
+<section class="register_section">
+    <div class="register">
+        <h3>Signup</h3>
+        {{msg}}
+    <form action="/register" method="post">
+        <div class="name ">
+            <label for="name">Name</label>
+            <br>
+            <input type="text" name="name" placeholder="Enter your name">
+        </div>
+        <div class="email">
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" placeholder="Enter Email">
+        </div>
+        <div class="password">
+            <label for="password">Password</label>
+            <br>
+            <input type="password" name="password" placeholder="Enter Password">
+        </div>
+        <div class="confirm_password">
+            <label for="confirm_password">Confirm Password</label>
+            <br>
+            <input type="password" name="confirmPassword" placeholder="Re-enter Password">
+        </div>
+        <small>Already have an account with us <a href="/login">login</a> now</small>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+    </div>
+</section>

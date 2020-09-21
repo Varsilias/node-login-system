@@ -1,0 +1,21 @@
+<section class="login_section">
+    <div class="login">
+        <h3>Login</h3>
+          {{msg}}
+    <form action="/login" method="post">
+        <div class="email">
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" placeholder="Enter Email">
+        </div>
+        <div class="password">
+            <label for="password">Password</label>
+            <br>
+            <input type="password" name="password" placeholder="Enter Password">
+        </div>
+        <small>Not registered yet <a href="/register">signup</a> now</small>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+    </div>
+</section>
